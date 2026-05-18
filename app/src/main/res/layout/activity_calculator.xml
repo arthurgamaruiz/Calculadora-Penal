@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fillViewport="true"
+
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+
+        android:paddingTop="72dp"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Calculadora Penal"
+
+            android:textSize="28sp"
+
+            android:textStyle="bold"
+
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="32dp"/>
+
+        <EditText
+            android:id="@+id/etAnos"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Anos da Pena"
+
+            android:inputType="number"
+
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etMeses"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Meses"
+
+            android:inputType="number"
+
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etDias"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Dias"
+
+            android:inputType="number"
+
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Regime Inicial"
+
+            android:textStyle="bold"
+
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/spRegime"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Tipo de Crime"
+
+            android:textStyle="bold"
+
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/spCrime"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="20dp"/>
+
+        <CheckBox
+            android:id="@+id/cbReincidente"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Reincidente"
+
+            android:layout_marginBottom="12dp"/>
+
+        <CheckBox
+            android:id="@+id/cbViolencia"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Violência ou Grave Ameaça"
+
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etDataInicio"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Data de início (dd/MM/yyyy)"
+
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etDiasTrabalhados"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Dias Trabalhados"
+
+            android:inputType="number"
+
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etHorasEstudo"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Horas de Estudo"
+
+            android:inputType="number"
+
+            android:layout_marginBottom="28dp"/>
+
+        <Button
+            android:id="@+id/btnCalcular"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Calcular"
+
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnContato"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Contato"
+
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvResultado"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+
+            android:lineSpacingExtra="4dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
